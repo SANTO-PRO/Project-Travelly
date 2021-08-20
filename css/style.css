@@ -17,12 +17,12 @@ h1 {
 
 h2 {
   font-size: 6.8rem;
-  font-family: "nova square", cursive;
+  font-family: "Nova Square", cursive;
 }
 
 h3 {
   font-size: 3rem;
-  font-family: "voces", cursive;
+  font-family: "Voces", cursive;
 }
 
 h4,
@@ -50,7 +50,7 @@ button {
   color: aliceblue;
   border-radius: 0.5rem;
   font-size: 2.5rem;
-  font-family: "voces", cursive;
+  font-family: "Voces", cursive;
   cursor: pointer;
   animation: buttonAnimation 1s infinite alternate-reverse 2s;
   transition: color 300ms ease-in-out;
@@ -65,7 +65,7 @@ button:hover {
 .main-head {
   background: rgba(1, 115, 255, 0.74);
   color: white;
-  font-family: "cantora one", sans-serif;
+  font-family: "Cantora One", sans-serif;
   position: sticky;
   z-index: 3;
   top: 0;
@@ -101,7 +101,7 @@ nav li:hover {
 
 #logo {
   flex: 2 1 40rem;
-  font-family: "galada", cursive;
+  font-family: "Galada", cursive;
   font-weight: 500;
 }
 
