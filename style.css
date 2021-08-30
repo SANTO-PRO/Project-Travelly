@@ -39,7 +39,9 @@ p {
 }
 
 a {
+  display: block;
   color: white;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -62,16 +64,17 @@ button:hover {
 
 /*---nav Section---*/
 
-.main-head {
+#main-head {
   background: rgba(1, 115, 255, 0.74);
   color: white;
   font-family: "Cantora One", sans-serif;
-  position: sticky;
   z-index: 3;
   top: 0;
+  transition: top 0.3s ease-in-out;
+  position: sticky;
 }
 
-nav {
+#navbar {
   display: flex;
   align-items: center;
   min-height: 10vh;
