@@ -232,6 +232,53 @@ nav li:hover {
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
+/*----------------Contact Section---------*/
+
+#contact {
+  min-height: 100vh;
+  background: url("img/pexels-dominika-roseclay-1252500.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.863);
+  width: 60vw;
+  color: #4196ff;
+  border-radius: 20px;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+.form-name,
+.form-email {
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-wrapper button {
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 5rem;
+  font-family: "Galada", cursive;
+}
+
+.form-wrapper input {
+  padding: 1rem 5rem;
+  border-radius: 20px;
+  border-color: #4196ff;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  color: #4196ff;
+  border-style: solid;
+  font-family: "Galada", cursive;
+}
 /*----------- Cloud & Button Animation Propertis Maker---------*/
 
 @keyframes cloudAnimation {
