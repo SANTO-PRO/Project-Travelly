@@ -1,5 +1,21 @@
 /*----------Responsive----------*/
 
+@media (max-width: 767px) {
+  .form-wrapper button {
+    font-size: 2.5rem;
+  }
+
+  .form-wrapper {
+    width: 95%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (max-width: 933px) {
   html {
     font-size: 62.5%;
@@ -174,6 +190,9 @@
   .cloud {
     min-height: 20vh;
     width: 120vw;
+  }
+  .form-wrapper {
+    width: 95%;
   }
 }
 
